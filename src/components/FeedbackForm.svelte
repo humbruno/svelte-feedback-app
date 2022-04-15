@@ -1,5 +1,8 @@
 <script>
-  import { v4 as uuidv4 } from "uuid";
+  import { v4 as uuidv4 } from "uuid"; /* external library to generate random IDs */
+
+  import { FeedbackStore } from "../stores";
+
   import Card from "./UI/Card.svelte";
   import Button from "./UI/Button.svelte";
   import RatingSelect from "./RatingSelect.svelte";
@@ -32,7 +35,12 @@
         rating: +rating,
       };
 
-      console.log(newFeedback);
+      FeedbackStore.update((currentFeedback) => {
+        return [newFeedback, ...currentFeedback];
+      });
+
+      text = "";
+      btnDisabled = true;
     }
   };
 </script>
