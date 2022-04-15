@@ -28,7 +28,7 @@ This is a simple Feedback Form using Svelte, developed as a way to practice the 
 
 The form allows the user to delete existing reviews, as well as write a new review by entering the text and selecting a rating from 1 to 10.
 
-There is some validation to the length of the review text as well as formulas to show the number of reviews, as well as the average rating of all existing reviews.
+There is validation when it comes to the length of the review text, as well as calculatations to show the number of reviews and the average rating of all existing reviews.
 
 The initial 3 reviews that initialize the project are saved using a Store, and new reviews/deleted reviews are updated automatically in the store file.
 
