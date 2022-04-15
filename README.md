@@ -37,7 +37,7 @@ Dependencies used for this project:
 
 ## 📥 Installing and executing
 
-Close this repository and access the directory.
+Clone this repository and access the directory.
 
 ```bash
 # Instaling dependencies
