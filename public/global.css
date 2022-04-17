@@ -24,7 +24,7 @@ input {
 
 .container {
   max-width: 768px;
-  margin: 100px auto;
+  margin: 100px auto 30px;
   padding: 0 20px;
   background-color: white;
   color: #202142;
@@ -38,7 +38,7 @@ input {
 
 .tooltip {
   max-width: 768px;
-  margin: 100px auto;
+  margin: 0 auto;
   padding: 50px;
   text-align: left;
 }

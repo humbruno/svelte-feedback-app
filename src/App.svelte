@@ -6,8 +6,8 @@
 
 <main>
   <div class="container">
-    <h2 class="title">{"{ Svelte }"}</h2>
-    <h1>Todo List</h1>
+    <h1>{"{ Svelte }"}</h1>
+    <h2>Todo List</h2>
     <Form />
     <List />
   </div>
@@ -22,18 +22,19 @@
     text-align: center;
   }
 
-  .title {
+  h1 {
     color: #e25b88;
+    font-size: 1.75rem;
   }
 
-  h1 {
+  h2 {
     position: relative;
     display: inline-block;
     z-index: 2;
     font-size: 2.5rem;
   }
 
-  h1::before {
+  h2::before {
     content: "";
     background: rgba(226, 91, 136, 0.8);
     position: absolute;
