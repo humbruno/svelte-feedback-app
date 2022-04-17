@@ -22,10 +22,6 @@ input {
   font-family: "Nunito", sans-serif;
 }
 
-input {
-  background-color: #dee2e6;
-}
-
 .container {
   max-width: 768px;
   margin: 100px auto;

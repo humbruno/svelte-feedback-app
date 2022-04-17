@@ -44,12 +44,21 @@
     align-items: center;
     gap: 10px;
   }
+
   input {
-    padding: 8px 10px;
-    font-family: "Poppins", sans-serif;
+    padding: 10px 10px;
+    font-size: 1rem;
     color: #202142;
+    background-color: #dee2e6;
     border-radius: 8px;
+    border: 2px solid #dee2e6;
     width: 80%;
+  }
+
+  input:focus,
+  input:active {
+    border: 2px solid #202142;
+    outline: none;
   }
 
   .message {

@@ -6,7 +6,7 @@
 
 <main>
   <div class="container">
-    <h2 class="title">{"{Svelte}"}</h2>
+    <h2 class="title">{"{ Svelte }"}</h2>
     <h1>Todo List</h1>
     <Form />
     <List />

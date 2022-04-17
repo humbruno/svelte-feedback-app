@@ -38,6 +38,7 @@
   }
 
   li {
+    font-weight: 700;
     padding: 10px 20px;
     background-color: #dee2e6;
     color: #202142;
