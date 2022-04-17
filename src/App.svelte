@@ -1,14 +1,14 @@
 <script>
-  import TodoForm from "./Components/TodoForm.svelte";
-  import TodoList from "./Components/TodoList.svelte";
-  import Tooltip from "./Components/Tooltip.svelte";
+  import Form from "./components/Form.svelte";
+  import List from "./components/List.svelte";
+  import Tooltip from "./components/Tooltip.svelte";
 </script>
 
 <main>
   <div class="container">
     <h1>Svelte Todo List</h1>
-    <TodoForm />
-    <TodoList />
+    <Form />
+    <List />
   </div>
 
   <div class="tooltip">

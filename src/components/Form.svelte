@@ -1,6 +1,5 @@
 <script>
   import { todos } from "../TodoStore";
-
   import Button from "./UI/Button.svelte";
 
   let todo = "";
@@ -10,8 +9,7 @@
     e.preventDefault();
 
     if (todo.trim().length < 1) {
-      message = "You cannot submit an empty task!";
-      return;
+      return (message = "You cannot submit an empty task!");
     } else {
       todos.update((todos) => {
         return [todo, ...todos];
@@ -23,19 +21,21 @@
   };
 </script>
 
-<form on:submit={createTodo}>
-  <label>
-    What would you like to do?
-    <input type="text" bind:value={todo} />
-    <Button>Add Task</Button>
-  </label>
+<section>
+  <form on:submit={createTodo}>
+    <label>
+      What would you like to do?
+      <input type="text" bind:value={todo} />
+      <Button>Add Task</Button>
+    </label>
 
-  {#if message}
-    <div class="message">
-      {message}
-    </div>
-  {/if}
-</form>
+    {#if message}
+      <div class="message">
+        {message}
+      </div>
+    {/if}
+  </form>
+</section>
 
 <style>
   input {
