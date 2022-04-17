@@ -17,8 +17,8 @@
       <span on:click={() => handleDelete(todo)}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="15"
-          height="15"
+          width="18"
+          height="18"
           fill="currentColor"
           class="bi bi-trash-fill"
           viewBox="0 0 16 16"
@@ -38,7 +38,7 @@
   }
 
   li {
-    padding: 10px;
+    padding: 10px 20px;
     background-color: #dee2e6;
     color: #202142;
     margin: 10px 0;
@@ -46,9 +46,13 @@
 
     display: flex;
     justify-content: space-between;
+
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   }
 
   span {
     cursor: pointer;
+    display: flex;
+    align-items: center;
   }
 </style>

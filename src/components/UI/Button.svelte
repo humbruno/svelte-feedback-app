@@ -4,19 +4,28 @@
 
 <style>
   button {
-    border-radius: 8px;
+    position: relative;
+
+    font-size: 1rem;
+    border-radius: 4px;
+    padding: 10px 15px;
     cursor: pointer;
-    font-weight: 700;
-    width: 150px;
 
-    padding: 8px 20px;
-
-    background-color: #202142;
+    background-color: #e25b88;
     color: #fff;
+
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+      rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+
+    transition: all 150ms ease-in-out;
   }
 
   button:hover {
-    transform: scale(0.98);
-    opacity: 0.9;
+    filter: brightness(1.2);
+    transform: translateY(-2px);
+  }
+
+  button:active {
+    transform: translateY(2px);
   }
 </style>
