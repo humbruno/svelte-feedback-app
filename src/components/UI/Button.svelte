@@ -4,15 +4,14 @@
 
 <style>
   button {
-    color: #fff;
-    border: 0;
     border-radius: 8px;
     cursor: pointer;
+    font-weight: 700;
 
     padding: 8px 20px;
 
-    background-color: #dee2e6;
-    color: #202142;
+    background-color: #202142;
+    color: #dee2e6;
   }
 
   button:hover {

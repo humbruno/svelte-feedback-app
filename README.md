@@ -24,18 +24,17 @@
 
 ## 💻 Project
 
-This is a simple Feedback Form using Svelte, developed as a way to practice the Svelte syntax and data management through components using the Stores concept.
+This is a simple Todo List Form using Svelte, developed as a way to practice the Svelte syntax and data management through components using the Stores concept.
 
-The form allows the user to delete existing reviews, as well as write a new review by entering the text and selecting a rating from 1 to 10.
+The form allows the user to delete existing tasks, as well as write a new task.
 
-There is validation when it comes to the length of the review text, as well as calculatations to show the number of reviews and the average rating of all existing reviews.
+There is validation when it comes to the length of the task text.
 
-The initial 3 reviews that initialize the project are saved using a Store, and new reviews/deleted reviews are updated automatically in the store file.
+The initial 3 tasks that initialize the project are saved using a Store, and new tasks/deleted tasks are updated automatically in the store file.
 
 Dependencies used for this project:
 
 - [Svelte](https://svelte.dev/)
-- [UUID Generator](https://www.uuidgenerator.net/version4)
 
 ## 🔌 Live Website Link
 
