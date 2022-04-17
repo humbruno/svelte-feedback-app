@@ -3,7 +3,7 @@
 <ul>
   <li>You <strong>cannot</strong> submit an empty task!</li>
   <li>
-    Submit your task by clicking the <strong>'Add Task'</strong> button, or by pressing
+    Submit your task by clicking the <strong>Add Task</strong> button, or by pressing
     enter on your keyboard.
   </li>
   <li>
