@@ -1,5 +1,5 @@
 <h1 align="center">
-  Feedback Form using Svelte
+  Todo List Form using Svelte
 </h1>
 
 <p align="center">

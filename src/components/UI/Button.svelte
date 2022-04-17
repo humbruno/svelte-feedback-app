@@ -7,11 +7,12 @@
     border-radius: 8px;
     cursor: pointer;
     font-weight: 700;
+    width: 150px;
 
     padding: 8px 20px;
 
     background-color: #202142;
-    color: #dee2e6;
+    color: #fff;
   }
 
   button:hover {

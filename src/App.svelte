@@ -6,7 +6,8 @@
 
 <main>
   <div class="container">
-    <h1>Svelte Todo List</h1>
+    <h2 class="title">{"{Svelte}"}</h2>
+    <h1>Todo List</h1>
     <Form />
     <List />
   </div>
@@ -15,3 +16,13 @@
     <Tooltip />
   </div>
 </main>
+
+<style>
+  main {
+    text-align: center;
+  }
+
+  .title {
+    color: #e25b88;
+  }
+</style>

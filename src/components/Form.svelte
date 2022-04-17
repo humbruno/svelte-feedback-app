@@ -38,11 +38,18 @@
 </section>
 
 <style>
+  label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
   input {
     padding: 8px 10px;
     font-family: "Poppins", sans-serif;
     color: #202142;
     border-radius: 8px;
+    width: 80%;
   }
 
   .message {
