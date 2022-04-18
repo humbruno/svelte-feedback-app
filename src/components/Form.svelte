@@ -25,7 +25,11 @@
   <form on:submit={createTodo}>
     <label>
       What would you like to do?
-      <input type="text" bind:value={todo} />
+      <input
+        type="text"
+        placeholder="Example: Give a bath to my cat"
+        bind:value={todo}
+      />
       <Button>Add Task</Button>
     </label>
 
